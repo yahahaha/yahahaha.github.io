@@ -16,7 +16,7 @@
 機器學習上可分為訓練(Training)與預測(predict)。
 機器學習的訓練資料由特徵(Features)和標籤(Label)組成。
 將大量的數據資料經過特徵萃取後產生Features和Label，就可以透過機器學習產生模型，再用訓練完的模型對新的資料進行預測。
-<img src="./image/2.png" width="75%"/>
+<img src="./image/2.png" width="75%"/>  
 
 ### 1.3 什麼是深度學習
 深度學習利用電腦模擬人類的神經網路，並將神經網路分成多個層，一般會有1個輸入層(Input Layer)、隱藏層(Hidden Layer)和1個輸出層(Output Layer)，因為隱藏層可以是1層，也可以是非常多層，因此稱為深度學習。  
