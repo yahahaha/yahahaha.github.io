@@ -3,7 +3,7 @@
 ## Chapter1 Introduction
 
 ### 1.1 人工智慧、機器學習和深度學習的關係
-
+![image](https://github.com/yahahaha/tensorflow/blob/master/img/tensors_flowing.gif)
 - Bulleted
 - List
 
