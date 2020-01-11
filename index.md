@@ -4,7 +4,7 @@
 
 ### 1.1 人工智慧、機器學習和深度學習的關係
 
-![1](/desktop/123321.png)
+![1](C:\Users\hu\Desktop\123321.png)
 - Bulleted
 - List
 
