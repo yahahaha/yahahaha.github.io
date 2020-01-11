@@ -16,4 +16,4 @@
 機器學習上可分為訓練(Training)與預測(predict)。
 機器學習的訓練資料由特徵(Features)和標籤(Label)組成。
 將大量的數據資料經過特徵萃取後產生Features和Label，就可以透過機器學習產生模型，再用訓練完的模型對新的資料進行預測。
-<img src="./image/image/2.png" width="75%" />
+<img src="./image/2.png" width="75%" />
