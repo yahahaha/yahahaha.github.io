@@ -21,7 +21,7 @@
 ### 1.3 什麼是深度學習
 深度學習利用電腦模擬人類的神經網路，並將神經網路分成多個層，一般會有1個輸入層(Input Layer)、隱藏層(Hidden Layer)和1個輸出層(Output Layer)，因為隱藏層可以是1層，也可以是非常多層，因此稱為深度學習。  
 <img src="./image/3.png" width="75%"/>  
-https://medium.com/marketingdatascience/%E5%BF%AB%E9%80%9F%E5%8F%8D%E6%87%89%E6%A9%9F%E5%88%B6-%E9%A1%9E%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF-a3bbdee4a6f6
+
 
 神經網路並不一定是越多層效果就越好，有時候太多層反而會造成反效果。
 ### 1.4 Tensorflow與Keras
