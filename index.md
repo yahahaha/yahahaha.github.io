@@ -37,3 +37,10 @@ Mnist資料集收集整理了許多人0到9的手寫數字圖片所形成的資�
 <img src="./image/4.png" width="75%"/>  
 圖片來源:https://docs.microsoft.com/zh-tw/archive/msdn-magazine/2014/june/test-run-working-with-the-mnist-image-recognition-data-set
 
+#### 下載&讀取Mnist資料集
+##### 下載Mnist資料集
+在python中可直接透過keras下載Mnist資料集，如下:
+```python
+from keras.datasets import mnist 
+```
+
