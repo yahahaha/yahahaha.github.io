@@ -49,9 +49,10 @@ mnist.load_data()第一次執行時會將資料下載到使用者的目錄下的
 ```python
 (train_feature, train_label),(test_feature, test_label)=mnist.load_data() 
 ```
+
 #### 查看訓練資料
 ##### 顯示訓練資料內容
-訓練資料是由每張都是28*/28的單色數字圖片(images)和數字圖片為0~9的真實值(labels)各60000筆所組成。可使用len()函式查看資料長度(數量):
+訓練資料是由每張都是28**28的單色數字圖片(images)和數字圖片為0~9的真實值(labels)各60000筆所組成。可使用len()函式查看資料長度(數量):
 ```python
 print(len(train_feature),len(train_label))    # 60000 60000
 ```
