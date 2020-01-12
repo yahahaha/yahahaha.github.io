@@ -79,7 +79,7 @@ print(train_feature_vector.shape,test_feature_vector.shape)   # (60000, 784) (10
 ```
 當print(train_feature_vector[0])來顯示第一筆image資料內容時，可以看到資料是以0~255的浮點數(float)呈現，這些就是圖中每個點的灰階值。
 ##### image標準化
-透過將0 ~255的數字除以255以得到0 ~1之間的浮點數，稱為標準化(Normalize)，標準化後可以提高模型預測的精確度以增加訓練效率，如下:
+透過將0/~/255的數字除以255以得到0/~/1之間的浮點數，稱為標準化(Normalize)，標準化後可以提高模型預測的精確度以增加訓練效率，如下:
 ```python
 train_feature_normalize=train_feature_vector/255
 test_feature_normalize=test_feature_vector/255
