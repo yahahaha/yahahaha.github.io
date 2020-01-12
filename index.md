@@ -87,9 +87,11 @@ test_feature_normalize=test_feature_vector/255
 這時再以print(train_feature_normalize[0])來顯示第一筆image經過正規化的資料內容時，可以看到資料是以0~1的浮點數呈現。
 #### Label資料預處理:
 在很多機器學習任務中，feature或label並不總是連續值，有可能是分類值，例如:  
+```
 性別：["male"，"female"]  
 地區：["Europe"，"US"，"Asia"]  
 瀏覽器：["Firefox"，"Chrome"，"Safari"，"Internet Explorer"]  
+```
 因此，通常我們需要對其進行特徵數字化，例如：  
 [“male”, “from US”, “uses Internet Explorer”]，表示為[0, 1, 3]  
 [“female”, “from Asia”, “uses Chrome”]，表示為[1, 2, 1]  
