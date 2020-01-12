@@ -61,7 +61,9 @@ print(len(train_feature),len(train_label))    # 60000 60000
 print(train_feature.shape,train_label.shape)   # (60000, 28, 28) (60000,)
 ```
 示意如下:
+
 <img src="./image/5.png" width="75%"/>  
+
 ### 2.3 多層感知器模型資料預處理
 在進入訓練前，必須針對多層感知器的輸入輸出資料進行預處理，以增加模型效率。
 #### Feature資料預處理:
