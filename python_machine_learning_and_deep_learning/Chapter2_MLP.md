@@ -3,7 +3,7 @@
 ## 2.1 認識多層感知器(MLP)  
 ## 2.2 認識Mnist資料集
 Mnist資料集收集整理了許多人0到9的手寫數字圖片所形成的資料集，其中包含了60000筆訓練資料，10000筆的測試資料。在Mnist資料集中，每一筆資料都是由images(數字圖片)和labels(真實數字)組成的黑白圖片資料。
-<img src="./image/4.png" width="75%"/>  
+<img src="../image/4.png" width="75%"/>  
 圖片來源:https://docs.microsoft.com/zh-tw/archive/msdn-magazine/2014/june/test-run-working-with-the-mnist-image-recognition-data-set
 
 ### 下載&讀取Mnist資料集
@@ -30,7 +30,7 @@ print(len(train_feature),len(train_label))    # 60000 60000
 print(train_feature.shape,train_label.shape)   # (60000, 28, 28) (60000,)
 ```
 示意如下:  
-<img src="./image/5.png" width="75%"/>  
+<img src="../image/5.png" width="75%"/>  
 
 ## 2.3 多層感知器模型資料預處理
 在進入訓練前，必須針對多層感知器的輸入輸出資料進行預處理，以增加模型效率。
