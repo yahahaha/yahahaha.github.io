@@ -8,13 +8,13 @@
 ### 深度學習:
 是機器學習的一種方式，簡單來說深度學習就是透過各種神經網路，如多層感知器(MLP)、卷積神經網路(CNN)、循環神經網路(RNN)等，將一大堆數據輸入神經網路當中，讓電腦透過大量數據的訓練找出規律並自動學習，最後讓電腦能依據自動學習累積的經驗做出預測。
 
-### 1.2 什麼是機器學習
+## 1.2 什麼是機器學習
 機器學習上可分為訓練(Training)與預測(predict)。
 機器學習的訓練資料由特徵(Features)和標籤(Label)組成。
 將大量的數據資料經過特徵萃取後產生Features和Label，就可以透過機器學習產生模型，再用訓練完的模型對新的資料進行預測。
 <img src="../image/2.png" width="75%"/>  
 
-### 1.3 什麼是深度學習
+## 1.3 什麼是深度學習
 深度學習利用電腦模擬人類的神經網路，並將神經網路分成多個層，一般會有1個輸入層(Input Layer)、隱藏層(Hidden Layer)和1個輸出層(Output Layer)，因為隱藏層可以是1層，也可以是非常多層，因此稱為深度學習。  
 <img src="../image/3.PNG" width="75%"/>  
 圖片來源:
@@ -22,6 +22,6 @@ https://medium.com/marketingdatascience/%E5%BF%AB%E9%80%9F%E5%8F%8D%E6%87%89%E6%
 
 神經網路並不一定是越多層效果就越好，有時候太多層反而會造成反效果。
 
-### 1.4 Tensorflow與Keras
-### 1.5 建置開發Tensorflow和Keras的虛擬環境
-### 1.6 安裝GPU版的Tensorflow和Keras
+## 1.4 Tensorflow與Keras
+## 1.5 建置開發Tensorflow和Keras的虛擬環境
+## 1.6 安裝GPU版的Tensorflow和Keras
