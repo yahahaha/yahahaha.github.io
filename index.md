@@ -8,7 +8,7 @@
 ### 1.5 建置開發Tensorflow和Keras的虛擬環境
 ### 1.6 安裝GPU版的Tensorflow和Keras  
 
-## [Chapter2 多層感知器(MLP)](/python_machine_learning_and_deep_learning/Chapter2_(MLP).md)
+## [Chapter2 多層感知器(MLP)](/python_machine_learning_and_deep_learning/Chapter2_MLP.md)
 ### 2.1 認識多層感知器(MLP)
 ### 2.2 認識Mnist資料集
 ### 2.3 多層感知器模型資料預處理
