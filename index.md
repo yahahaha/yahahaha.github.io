@@ -11,7 +11,7 @@
 是人工智慧的一個分支，簡單來說機器學習就是透過特殊演算法，讓電腦能經由訓練從一大堆數據中找出規律性並產生模型，然後利用訓練出來的模型進行預測。
 #### 深度學習:
 是機器學習的一種方式，簡單來說深度學習就是透過各種神經網路，如多層感知器(MLP)、卷積神經網路(CNN)、循環神經網路(RNN)等，將一大堆數據輸入神經網路當中，讓電腦透過大量數據的訓練找出規律並自動學習，最後讓電腦能依據自動學習累積的經驗做出預測。
-<link src="https://python machine learning and deep learning/Chapter1_Introduction.md"/>
+<link src="./python machine learning and deep learning/Chapter1_Introduction.md"/>
 ### 1.2 什麼是機器學習
 機器學習上可分為訓練(Training)與預測(predict)。
 機器學習的訓練資料由特徵(Features)和標籤(Label)組成。
