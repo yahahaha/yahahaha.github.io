@@ -2,7 +2,7 @@
 本文是我在讀"Python機器學習與深度學習特訓班：看得懂也會做的AI人工智慧實戰"這本書還有自己學習機器學習時的學習筆記與實作的內容
 ## Chapter1 Introduction
 
-[1.1 人工智慧、機器學習和深度學習的關係](/python_machine_learning_and_deep_learning/Chapter1_Introduction.md)
+### [1.1 人工智慧、機器學習和深度學習的關係](/python_machine_learning_and_deep_learning/Chapter1_Introduction.md)
 ### 1.2 什麼是機器學習
 機器學習上可分為訓練(Training)與預測(predict)。
 機器學習的訓練資料由特徵(Features)和標籤(Label)組成。
