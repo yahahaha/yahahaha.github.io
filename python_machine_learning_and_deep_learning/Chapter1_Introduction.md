@@ -1,4 +1,5 @@
-# Chapter1 Introduction
+# Chapter1 Introduction  
+
 ## 1.1 人工智慧、機器學習和深度學習的關係
 <img src="../image/1.png" width="75%" />  
 ### 人工智慧:
@@ -22,6 +23,6 @@ https://medium.com/marketingdatascience/%E5%BF%AB%E9%80%9F%E5%8F%8D%E6%87%89%E6%
 
 神經網路並不一定是越多層效果就越好，有時候太多層反而會造成反效果。
 
-## 1.4 Tensorflow與Keras
-## 1.5 建置開發Tensorflow和Keras的虛擬環境
+## 1.4 Tensorflow與Keras  
+## 1.5 建置開發Tensorflow和Keras的虛擬環境  
 ## 1.6 安裝GPU版的Tensorflow和Keras
