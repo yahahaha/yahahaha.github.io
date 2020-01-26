@@ -16,3 +16,5 @@
 ### 2.5 模型儲存和載入
 ### 2.6 模型權重的儲存與載入
 ### 2.7 建立多個隱藏層&過渡擬合(overfitting)
+
+## [Chapter3 卷積神經網路(CNN)](/python_machine_learning_and_deep_learning/Chapter3_CNN.md)
