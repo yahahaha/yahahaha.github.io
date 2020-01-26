@@ -1,6 +1,7 @@
 # Chapter3 卷積神經網路(CNN)
  
-卷積神經網路(Convolutional Neural Networks)，它是目前深度神經網路（deep neural network）領域的發展主力，在圖片辨別上甚至可以做到比人類還精準的程度。
+卷積神經網路(Convolutional Neural Networks)，它是目前深度神經網路（deep neural network）領域的發展主力，在圖片辨別上甚至可以做到比人類還精準的程度。  
+
 傳統的DNN（即Deep neural network，泛指一般的深度學習網路）最大問題在於它會忽略資料的形狀。例如，輸入影像的資料時，該data通常包含了水平、垂直、color channel等三維資訊，但傳統DNN的輸入處理必須是平面的、也就是須一維的資料。舉例來說當DNN分類MNIST手寫數字集，其影像資訊是水平28 pixels、垂直28 pixels、color channel=1，即(1, 28, 28)的形狀，但輸入DNN時，所有dataset必須轉為一維，欄位數為784的dataset。  
 
 因此，若去除了這些形狀資訊，就代表失去了一些重要的空間資料，像不同影像但類似的空間可能有著相似的像素值，RGB不同的channel之間也可能具有某些關連性、而遠近不同的像素彼此也應具有不同的關聯性，而這些資訊只有在三維形狀中才能保留下來。
