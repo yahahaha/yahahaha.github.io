@@ -36,6 +36,9 @@ CNN的Convolution layer的目的就是在保留圖像的空間排列並取得局
 model.add(Conv2D(filters=10,kernel_size=(3,3),padding='same',input_shape=(28,28,1),activation='relu'))
 '''
 
+filters:設定filter的個數，每個filter會產生不同的濾鏡效果。
+kernel_size:設定filter的大小，通常為5X5或3X3。
+padding:設定卷積運算圖片的大小，padding='same'會做zero-padding，讓Feature Map不會受到filter而影響大小，padding = ‘VALID’ ，Feature Map會根據filter大小和stride大小而變小。
 
 
 
