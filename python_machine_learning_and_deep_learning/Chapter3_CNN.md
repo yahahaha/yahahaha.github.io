@@ -12,8 +12,8 @@ Deep learning中的CNN比多層感知器(MLP)多了卷積層（Convolutional lay
 
 <img src="../image/9.png" width="75%" />    
 圖片來源:  
-https://chtseng.wordpress.com/2017/09/12/%E5%88%9D%E6%8E%A2%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF/ 
-
+https://chtseng.wordpress.com/2017/09/12/%E5%88%9D%E6%8E%A2%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF/
+ 
 ### 卷積層(Convolutional layer): 
 
 CNN的Convolution layer的目的就是在保留圖像的空間排列並取得局部圖像作為輸入特徵。
