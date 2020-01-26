@@ -18,3 +18,5 @@
 ### 2.7 建立多個隱藏層&過渡擬合(overfitting)
 
 ## [Chapter3 卷積神經網路(CNN)](/python_machine_learning_and_deep_learning/Chapter3_CNN.md)
+### 3.1 卷積神經網路的基本結構
+### 3.2 CNN實作Mnist手寫數字辨識
