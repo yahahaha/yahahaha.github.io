@@ -11,8 +11,9 @@
 Deep learning中的CNN比多層感知器(MLP)多了卷積層（Convolutional layer）及池化層（Pooling layer）兩層，用以維持形狀資訊並且避免參數大幅增加。架構如下，多了2個卷積和池化層，最後透過平坦層(Flatten Layer)將特徵輸入到全連接層(Fully Connected)，也就是先前的多層感知器。
 
 <img src="../image/9.png" width="75%" />    
-圖片來源:    
+圖片來源:  
 https://chtseng.wordpress.com/2017/09/12/%E5%88%9D%E6%8E%A2%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF/ 
+
 
 ### 卷積層(Convolutional layer): 
 
