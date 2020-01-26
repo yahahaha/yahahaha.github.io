@@ -27,15 +27,15 @@ https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9
 0 x 0 + 0 x 0 + 0 x 1 + 0 x 1 + 1 x 0 + 0 x 0 + 0 x 0 + 0 x 1 + 0 x 1 = 0 依序做完整張表。
 
 <img src="../image/11.png" width="75%" />  
-圖片來源:  
-https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-1%E8%AC%9B-%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E7%B5%A1%E4%BB%8B%E7%B4%B9-convolutional-neural-network-4f8249d65d4f  
-  
+圖片來源:
+https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-1%E8%AC%9B-%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E7%B5%A1%E4%BB%8B%E7%B4%B9-convolutional-neural-network-4f8249d65d4f
+
 中間的Feature Detector(Filter)會隨機產生好幾種，Feature Detector的目的就是幫助我們萃取出圖片當中的一些特徵(ex:形狀)，就像人的大腦在判斷這個圖片是什麼東西也是根據形狀來推測。
 
 <img src="../image/12.png" width="75%" />  
-圖片來源:  
-https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-1%E8%AC%9B-%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E7%B5%A1%E4%BB%8B%E7%B4%B9-convolutional-neural-network-4f8249d65d4f  
-  
+圖片來源:
+https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-1%E8%AC%9B-%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E7%B5%A1%E4%BB%8B%E7%B4%B9-convolutional-neural-network-4f8249d65d4f
+
 然而如果我們輸入的是三層的RGB圖像而非單層的灰階呢？或是想要使用多個Feature Detector(filter)來取得不同的特徵，那麼就需要在同一卷積層中定義多個Feature Detector(filter)，此時Feature Detector(filter)的數量就代表其Feature Detector(filter)的維度。當Feature Detector(filter)維度愈大，代表使用的Feature Detector(filter)種類愈多提取的圖像特徵也就越多，圖像識別的能力也就更好。
 
 可以利用model.add(Conv2D())語法加入卷積層，例如:加入10個Filter，Filter大小為3X3，原始圖片大小28X28的卷積層。
