@@ -20,3 +20,7 @@
 ## [Chapter3 卷積神經網路(CNN)](/python_machine_learning_and_deep_learning/Chapter3_CNN.md)
 ### 3.1 卷積神經網路的基本結構
 ### 3.2 CNN實作Mnist手寫數字辨識
+
+## [Chapter4 循環神經網路(RNN)](/python_machine_learning_and_deep_learning/Chapter4_RNN.md)
+
+## [Chapter5 機器學習雲端平台:Microsoft Azure](/python_machine_learning_and_deep_learning/Chapter5_Microsoft_Azure.md)
