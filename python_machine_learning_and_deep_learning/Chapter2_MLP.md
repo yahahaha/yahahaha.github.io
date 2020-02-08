@@ -94,8 +94,8 @@ from keras.datasets import mnist
 
 #### Feature特徵值轉換
 ```python
-train_feature_vector=train_fearure.reshape(len(train_fearure),784).astype('float32')
-test_feature_vector=test_fearure.reshape(len(test_fearure),784).astype('float32')
+train_feature_vector=train_feature.reshape(len(train_feature),784).astype('float32')
+test_feature_vector=test_feature.reshape(len(test_feature),784).astype('float32')
 ```
 
 #### Feature特徵值標準化
@@ -121,14 +121,14 @@ model=Sequential()
 #### 建立輸入層和隱藏層
 ```python
 from keras.layers import Dense
-model.add(Dense(units=256,input_dim=784,kernel_initializer=’normal’,activation=’relu’))
+model.add(Dense(units=256,input_dim=784,kernel_initializer='normal',activation='relu'))
 ```
 以add方法可以增加輸入層和隱藏層，Dense為上下緊密連結的神經網路層。
 units表示隱藏層神經元數目有256個，input_dim=784表示輸入層神經元數目有784個，kernel_initializer=’normal'表示以常態分佈亂數來初始化參數weight和bias，activation=’relu表示使用relu這個激勵函數。
 
 #### 建立輸出層
 ```python
-model.add(Dense(units=10,kernel_initializer=’normal’,activation=’softmax’))
+model.add(Dense(units=10,kernel_initializer='normal',activation='softmax'))
 ```
 units表示輸出層神經元數目有10個，kernel_initializer=’normal'表示以常態分佈亂數來初始化參數weight和bias，activation=’relu表示使用relu這個激勵函數。
 
