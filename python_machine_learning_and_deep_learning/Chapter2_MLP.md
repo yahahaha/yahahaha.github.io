@@ -39,8 +39,8 @@ Feature就是模型中神經元輸入的資料，每個Mnist數字圖片都是�
 #### image轉換
 以reshape()函式將28*28的數字圖片轉為784個數字的一維向量，再以astype將每個數字都轉為float數字，如下:
 ```python
-train_feature_vector=train_fearure.reshape(len(train_fearure),784).astype('float32')
-test_feature_vector=test_fearure.reshape(len(test_fearure),784).astype('float32')
+train_feature_vector=train_feature.reshape(len(train_feature),784).astype('float32')
+test_feature_vector=test_feature.reshape(len(test_feature),784).astype('float32')
 ```
 可以透過shape屬性查看數字圖片已經轉成784個數字的一維向量，如下:
 ```python
