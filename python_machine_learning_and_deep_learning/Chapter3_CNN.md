@@ -111,8 +111,8 @@ plt.show
 
 (train_feature, train_label),(test_feature, test_label)=mnist.load_data()
 
-train_feature_vector=train_fearure.reshape(len(train_fearure),784).astype('float32')
-test_feature_vector=test_fearure.reshape(len(test_fearure),784).astype('float32')
+train_feature_vector=train_fearure.reshape(len(train_fearure),28,28).astype('float32')
+test_feature_vector=test_fearure.reshape(len(test_fearure),28,28).astype('float32')
 
 train_feature_normalize=train_feature_vector/255
 test_feature_normalize=test_feature_vector/255
